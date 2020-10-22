@@ -15,7 +15,7 @@ __banner__='''
 |  __/ ___ \ |___| . \| |___  | |_____|  _ <| |__| |__| |_| | |\  |
 |_| /_/   \_\____|_|\_\_____| |_|     |_| \_\_____\____\___/|_| \_|
 
-   DEVELOPED BY MONISH KUMAR R | CONTACT : monish937@gmail.com
+   DEVELOPED BY MONISH KUMAR R 
 
 '''
 
