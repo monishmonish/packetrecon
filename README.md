@@ -22,6 +22,3 @@ Functions :
  
  Built By Scapy...
  
- ## CONTACT
- For any Queries,
- Contact: monish937@gmail.com
